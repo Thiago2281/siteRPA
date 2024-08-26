@@ -21,8 +21,8 @@
   
 
   <!-- main image & intro text -->
-  <section id="intro" style="background-image: url('./_img/background.png'); background-size: 100%">
-    <nav class="navbar navbar-expand-md pt-1 pb-1">
+  <section id="intro" style="background-image: url('./_img/background.png'); background-size: cover">
+    <nav class="navbar navbar-dark navbar-expand-md pt-1 pb-5">
       <div class="container-xxl">
 
           <img src="./_img/rpa_logo.png" alt="logo_rpa" width="150px" img style="padding: 10px;">
@@ -34,19 +34,21 @@
         <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
           <ul class="navbar-nav px-4">
             <li class="nav-item px-3">
-              <a class="nav-link text-white" href="/index.html"><strong>Home</strong></a>
+              <a class="nav-link text-white" href="#intro"><strong>Home</strong></a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link text-white" href="/desenvolvedor.html"><strong>Serviços</strong></a>
+              <a class="nav-link text-white" href="#reviews"><strong>Serviços</strong></a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link text-white" href="#contact"><strong>Funcionalidades</strong></a>
+              <a class="nav-link text-white" href="#topics"><strong>Funcionalidades</strong></a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link text-white" href="#contact"><strong>Preço</strong></a>
+              <a class="nav-link text-white" href="#pricing"><strong>Preço</strong></a>
             </li>
             <li class="nav-item px-3">
-              <button type="button" class="btn btn-warning">CONTATE</button>
+              <a href="#reviews">
+              <button type="button" class="btn" style="background-color: #fddf53;" >CONTATE</button>
+              </a>
             </li>
 
           </ul>
@@ -56,13 +58,13 @@
 
     
     <div class="container">
-      <div class="row pt-5">
+      <div class="row">
         <div class="col">
           <h1 class="display-1 text-white"><strong>Automação Digital</strong></h1>
-          <h1 class="display-6 text-white mt-5" style="margin-bottom: 20vh">Simplifique processos e maximize resultados com nossos serviços de programação.</h1>
+          <h1 class="display-6 text-white mt-5" style="margin-bottom: 20vh">Simplifique processos e maximize resultados com nossos serviços de programação</h1>
         </div>
         <div class="col text-center">
-          <img src="./_img/celular.png" alt="celular" width="200px">
+          <img src="./_img/celular.png" alt="celular" width="350px">
         </div>
       </div>
     </div>
@@ -75,9 +77,11 @@
           <button class="button-18" role="button">#solucoespersonalizadas</button>
           <h1 class="display-6 text-white mt-3"><strong>Soluções únicas para o seu negócio</strong></h1>
           <p class="text-white mt-3">Entendemos que cada negócio é único. É por isso que oferecemos soluções personalizadas para atender exatamente às suas necessidades.</p>
+          <a href="#reviews">
           <button class="button-branco mt-2" role="button">Contate hoje<img src="./_img/seta-direita.png" style="width: 30px; margin-left: 5px;"></button>
+          </a>
         </div>
-        <div class="col text-center">
+        <div class="col text-center pt-2">
           <img src="./_img/notebook1.png" alt="notebook1" width="300px">
         </div>
       </div>
@@ -86,11 +90,6 @@
 
   <section id="pricing" class="pt-3 pb-5">
     <div class="container-lg">
-      <!-- <div class="text-center text-white">
-        <h2>Uma vida grandiosa</h2>
-        <p class="lead text-white">Merecedor de um lugar no Livro dos Heróis da Pátria, guardado no Panteão da Pátria, em Brasília-DF, Rondon teve uma vida digna dos maiores personagens da humanidade.</p>
-      </div> -->
-
       <div class="row my-1 align-items-center justify-content-center">
         <div class="col-8 col-lg-4 col-xl-3 pb-3">
           <p class="display-8 my-2 text-primary fw-bold text-center">Site personalizado</p>
@@ -123,8 +122,10 @@
                 colors="primary:#ffffff"
                 style="width:30px;height:30px; padding-top: 4%; margin-right: 3%;">
             </lord-icon>Aparência profissional</p>
+            <a href="#reviews">
             <button class="button-branco mt-2" role="button">Contate agora<img src="./_img/seta-direita.png" style="width: 30px; margin-left: 5px;"></button>
-            </div>
+            </a>
+          </div>
           </div>
         </div>
 
@@ -159,7 +160,9 @@
                 colors="primary:#ffffff"
                 style="width:30px;height:30px; padding-top: 4%; margin-right: 3%;">
             </lord-icon>Flexibilidade</p>
+              <a href="#reviews">
               <button class="button-branco mt-2" role="button">Contate agora<img src="./_img/seta-direita.png" style="width: 30px; margin-left: 5px;"></button>
+              </a>
             </div>
           </div>
         </div>
@@ -170,7 +173,9 @@
             <div class="card-body">
               <p class="card-text text-white d-lg-block display-6 pb-1"><strong>Faça sua cotação</p></strong>
               <p class="text-white pb-5">Oferecemos serviços de automação utilizando ferramentas poderosas como UI Vision e outras plataformas avançadas, permitindo a automação de processos complexos, integrações robustas e customizações específicas para maximizar a eficiência do seu negócio.</p>
+              <a href="#reviews">
               <button class="button-branco mt-2" role="button">Contate agora<img src="./_img/seta-direita.png" style="width: 30px; margin-left: 5px;"></button>
+              </a>
             </div>
           </div>
         </div>
@@ -185,14 +190,14 @@
       <div class="text-center">
         <h2 class="text-white pt-2">O QUE PODE SER AUTOMATIZADO</h2>
       </div>
-      <div class="row my-5 justify-content-around">
-        <div class="col-6 col-lg-4">
-          <img src="./_img/celular.png" alt="tela" style="size: 500px; padding-left: 30%;">
+      <div class="row my-5 justify-content-around t">
+        <div class="col-8 col-lg-2">
+          <img src="./_img/celular.png" alt="tela" style="width: 300px">
         </div>
         <div class="col-lg-6">
           
           <!-- accordion -->
-          <div class="accordion" id="chapters">
+          <div class="accordion pt-3" id="chapters">
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-1">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
@@ -242,21 +247,13 @@
               </div>
             </div>
           </div>
-          <!-- open sidebar / offcanvas 
-          <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
-            Aprenda mais aqui
-          </a>
-          <a href="#sidegaleria" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
-            Registros fotograficos da expedicao
-          </a>-->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- reviews list -->
   <section id="reviews" style="background-color: #13072e; ">
-    <div class="container-lg pt-5">
+    <div class="pt-5">
       <div class="text-center">
         <h2 class="text-WHITE">NOSSOS SERVIÇOS</h2>
       </div>
@@ -264,7 +261,7 @@
         <div class="row pt-2 pb-5" style="padding-right: 10%; padding-left: 10%;">
           <div class="col-6">
             <div class="row">
-              <div class="col-4">
+              <div class="col-md-4">
                 <lord-icon
                 src="https://cdn.lordicon.com/dmgxtuzn.json"
                 trigger="hover"
@@ -272,7 +269,7 @@
                 style="width:100px;height:100px">
                 </lord-icon>
               </div>         
-              <div class="col-8">
+              <div class="col-8 col-md-8">
                 <p class="text-white mt-3">Serviços de automação de WhatsApp</p>
                 <p class="text-white mt-3">Desenvolvimento de Sites e Landpages</p>
               </div>
@@ -281,7 +278,7 @@
           
           <div class="col">
             <div class="row">
-              <div class="col-4">
+              <div class="col-md-4">
                 <lord-icon
                 src="https://cdn.lordicon.com/hnppcsvw.json"
                 trigger="hover"
@@ -289,7 +286,7 @@
                 style="width:100px;height:100px">
                 </lord-icon>
               </div>         
-              <div class="col">
+              <div class="col-8 col-md-8">
                 <p class="text-white mt-3">Web design</p>
                 <p class="text-white mt-3">Programação Personalizada</p>
               </div>
@@ -299,10 +296,11 @@
       
       <div class="container" style="background-image: linear-gradient(to right, #13072e ,#3f2182);">
         <h2 class="text-white pt-5">Entre em contato</h2>
-        <form action="https://formsubmit.co/29762a7840b7405184f266928d1109a3" method="POST" class="form"></form>
+        <form action="https://formsubmit.co/70b97330bcf42a828c8f7878369d2ec4" method="POST" class="form">
           <div class="row">
-            <div class="col-6">        
+            <div class="col-md-6">        
                     <div>
+                    <input type="hidden" name="_captcha" value="false">
                     <label for="name" class="form-label text-white">Nome:</label>
                       <div class="mb-4 input-group">
                         <span class="input-group-text">
@@ -333,15 +331,16 @@
                           <input type="text" name="telefone" id="telefone" class="form-control" placeholder="(xx) xxxxx-xxxx" required/>
                       </div>
                     </div>
+                    <a class="nav-link text-white" href="./_img/termos de uso.txt">Termos de uso</a>
               </div>
             </div>
-            <div class="col-6">    
+            <div class="col-md-6">    
                   <div class="mb-4 mt-2 form-floating">
                     <textarea class="form-control" name="message" id="message" style="height: 140px" placeholder="message" required></textarea>
                     <label for="message">Seu texto...</label>
                   </div>
-                  <div class="mb-4 text-center">
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  <div class="mb-4 text-end">
+                    <button type="submit" class="btn px-5" style="background-color: #fddf53;">Enviar</button>
                   </div>
             </div>
           </div>
